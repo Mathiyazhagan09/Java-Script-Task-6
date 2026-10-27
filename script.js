@@ -1,0 +1,73 @@
+   //Part 1 --> Array Higher Ordered Method
+//1.
+/*let number=[1,2,3,4,5,6,7,8,9,10];
+number.forEach((num) => {
+    console.log(num);
+    
+});*/
+
+//2.
+/*let number=[1,2,3,4,5];
+let result=number.map((number)=>{
+ return number*5
+});
+console.log(result);*/
+
+//3.
+/*let number=[20,5,7,30,21,80];
+let result=number.filter((number)=>{
+    return number>20
+});
+console.log(result);*/
+
+//4.
+/*let employee=[{name:"Mathiyazhagan",salary:330000},
+    {name:"Sakthi",salary:200000},{name:"Surya",salary:320000}
+];
+let result = employee.filter((employee)=>{
+    return employee.salary>=200000
+});
+console.log(result);*/
+
+//5.
+/*let employee=[{name:"Mathiyazhagan",Salary:200000},{name:"Elango",Salary:300000
+},{name:"sanjai",Salary:400000}];
+let result = employee.find((employee)=>{
+    return employee.Salary>200000
+});
+console.log(result);*/
+
+//6.
+/*let number=[1,2,3,4,5,6,7,8];
+let result=number.reduce((sum,num)=>{
+    return sum+num
+})
+console.log(result);*/
+
+//7.
+/*let number=[[1, 3, 5, 7, 9]];
+let result=number.some((number)=>{
+    return number%2===0
+});
+console.log(result);*/
+
+//8.
+/*let number=[1,2,4,5,7];
+let result=number.every((number)=>{
+    return number > 0;
+})
+console.log(result);*/
+
+//9.
+/*let number=[10,40,50,39];
+let result=number.sort((a,b)=>{
+    return a-b 
+});
+console.log(result);*/
+
+//10.
+let number =[10,40,20,70,80];
+let result=number.sort((a,b)=>{
+    return b-a
+});
+console.log(result);
