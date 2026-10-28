@@ -86,6 +86,46 @@ console.log(name.charCodeAt(2));*/
 console.log(name.trim());*/
 
 //14.
-let name="Hello Javascript";
+/*let name="Hello Javascript";
 console.log(name.toUpperCase())
-console.log(name.toLowerCase())
+console.log(name.toLowerCase())*/
+
+//15.
+/*const name = "javascript";
+console.log(name.includes("script"));*/
+
+
+// 16. 
+/*const name = "JavaScript";
+console.log(name.startsWith("Java"));
+console.log(name.endsWith("Script"));*/
+
+
+//17.
+/*const name = "java is easy, java is popular";
+console.log(name.replaceAll("java", "python"));*/
+
+//18.
+/*const str = "html-css-javascript-react";
+const result = str.split("-");
+console.log(result);*/
+
+//19.
+/*const names = ["Mathi", "Ravi", "Kumar"];
+const result = names.join(",");
+console.log(result);*/
+
+//20.
+/*const str = "JavaScript";
+const result = str.slice(0, 4);
+console.log(result);*/
+
+//21.
+const today = new Date();
+console.log("Year:", today.getFullYear());
+console.log("Month:", today.getMonth() + 1);
+console.log("Date:", today.getDate());
+console.log("Day:", today.getDay());
+
+
+
