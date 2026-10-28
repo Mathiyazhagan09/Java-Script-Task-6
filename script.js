@@ -66,8 +66,26 @@ let result=number.sort((a,b)=>{
 console.log(result);*/
 
 //10.
-let number =[10,40,20,70,80];
+/*(let number =[10,40,20,70,80];
 let result=number.sort((a,b)=>{
     return b-a
 });
-console.log(result);
+console.log(result);*/
+
+   //String method
+//11.
+/*let name="Javascript";
+console.log(name.charAt(4));*/
+
+//12.
+/*let name ="Javascript";
+console.log(name.charCodeAt(2));*/
+
+//13.
+/*let name = "    JavaScript";
+console.log(name.trim());*/
+
+//14.
+let name="Hello Javascript";
+console.log(name.toUpperCase())
+console.log(name.toLowerCase())
